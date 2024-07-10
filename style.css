@@ -664,3 +664,36 @@ footer p {
     }
 }
 
+/* Estilo para la sección del mapa */
+.map-section {
+    background-color: #1e2326;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.map-section .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.map-section h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.map-section p {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
